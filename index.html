@@ -4,9 +4,354 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>development</title>
+    
+    <style>
+    
+        /* nav style  */
+
+        nav{
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+        }
+
+        .one{
+            font-size: 20px;
+            margin-left: 500px;
+            margin-top: 15px;
+        }
+
+        .two{
+            font-size: 20px;
+            margin-right: 500px;
+            margin-top: 15px;
+        }
+
+
+        /* hover style  */
+
+        .flexible-container{
+            position: relative;
+        }
+        .flexible-container:hover .merge img{
+        transform:scale(1.4) rotate(360deg);
+        transition: transform 5s ease-out ;
+    }
+    </style>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/28250b5276.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    
+    <!-- influencer  -->
+    <h4 class="start">Influencer Products</h4>
+    <head>
+        <nav>
+            <span class="one">
+            <a target="_blank" href="">Home</a>
+            <a target="_blank" href="">Products</a>
+            <a target="_blank" href="">Orders</a>
+            <a target="_blank" href="">About Us</a>
+            </span>
+           <span class="two">
+            <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-sign-out-alt"></i></a>
+           </span>
+        </nav>
+    </head>
+    <main>
+        <section class="flexible-container">
+            <div class="merge">
+                <div>
+                    <h1>Start your Journey as </h1>
+                    <h1>Influencer</h1>
+                </div>
+                <p class="padding-bottom">An influencer is someone in your niche or industry with sway over your target audience. Influencers have specialized knowledge, authority or insight into a specific subject. Their pre-existing presence in a niche makes them a useful launching pad for brands in search of credibility.</p>
+                <a class="link-button padding-bottom" target="_blank"  href="https://cameracompany.com/">Prebook now  <i class="fas fa-arrow-right"></i> </a>
+            </div>
+            <div class="merge"> 
+                <img src="images/main-camera.png" alt="">
+            </div>
+        </section>
+
+      <section>
+          <div class="logos">
+              <div class="logo">
+                  <img src="logos/Alibaba.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Amazon.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Daraz.pk Logo.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Ebay.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Rakuten.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Target.svg" alt="">
+              </div>
+              <div class="logo">
+                  <img src="logos/Walmart.svg" alt="">
+              </div>
+          </div>
+      </section>
+
+      <!-- collections  -->
+
+        <section class="container">
+            <h2 class="section-title">Popular Collection</h2>
+            <div class="collections">
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/tripod.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Flex Tripod</h3>
+                        <h4 class="collection-price">$49.54</h4>
+                       <h5>Wordwide shifting</h5>
+                       <h6>available</h6>
+                       <h5>Buyers protection possible!</h5>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/mic.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Microphone</h3>
+                        <h4 class="collection-price">$119.99</h4>
+                        <h5>Wordwide shifting</h5>
+                       <h6>available</h6>
+                       <h5>Buyers protection possible!</h5>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+           
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/airpod.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Airbuds</h3>
+                        <h4 class="collection-price">$99.99</h4>
+                        <h5>Buyers protection possible!</h5>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+            
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/drone.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Drone</h3>
+                        <h4 class="collection-price">$985.75</h4>
+                        <h5>Buyers protection possible!</h5>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+               </div>
+           
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/lights.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Light Setup</h3>
+                        <h4 class="collection-price">$1199.99</h4>
+                        <p class="collection-stats">Reed Krakoff</p>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+            
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/setup.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Photoshot Set</h3>
+                        <h4 class="collection-price">$819.00</h4>
+                        <p class="collection-stats">Reed Krakoff</p>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+              </div>
+            
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/camera.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Vlogging Camera</h3>
+                        <h4 class="collection-price">$1799.00</h4>
+                        <p class="collection-stats">Reed Krakoff</p>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+           
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/single-light.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Green Screen</h3>
+                        <h4 class="collection-price">$24.99</h4>
+                        <p class="collection-stats">Reed Krakoff</p>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+           
+                <div class="collection">
+                    <div class="collection-banner">
+                        <img src="images/action.png" alt="">
+                    </div>
+                    <div class="collection-detail">
+                        <h3 class="collection-title">Action Camera</h3>
+                        <h4 class="collection-price">$379.99</h4>
+                        <p class="collection-stats">Reed Krakoff</p>
+                    </div>
+                    <div class="collection-info">
+                        <div>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star unfilled"></i>
+                            <span>4</span>
+                         </div>
+                         
+                    </div>
+                </div>
+                <a id="no-bg" target="_blank"  href="https://andor.oxinst.com/products/?gclid=CjwKCAiA_omPBhBBEiwAcg7smUuHL2zewGQHo67UetX8pKXIAv4nOwmZvhNqqgd6ZFj52jI1idMP0RoCcwIQAvD_BwE">See more <i class="fas fa-arrow-right"></i> </a>
+        </section>
+
+        <!-- quality contents  -->
+
+        <section class="flexible-container">
+            <!-- <h2 class="section-title">Influencer Producs</h2> -->
+            <div class="merge"> 
+                <img src="images/travel.jfif" alt="">
+            </div>
+            <div class="merge">
+                <div>
+                  <h1 id="color">Focused on</h1>
+                  <h1 id="color">Quality contents</h1>
+                </div>
+                <p class="padding-bottom">Content quality is how well your content achieves its goal(s). It refers to the depth of information and insight contained within a piece of content. Content quality goes beyond information to include formatting, readability, and grammatical correctness.</p>
+                <a class="link-button padding-bottom" target="_blank"  href="https://www.roehampton.ac.uk/undergraduate-courses/photography/?gclid=CjwKCAiA_omPBhBBEiwAcg7smeM3L7i6s-HTciPIAkwRfiri4uLpbFaK3jB2lzW_9AXoMZh3BnuT9hoCXpUQAvD_BwE">Join Now <i class="fas fa-arrow-right"></i> </a>
+            </div>
+            
+        </section>
+
+        <!-- footer  -->
+
+        <footer>
+            <h3 class="align">Influencer products</h3>
+            <p class="align">&copy; 2022 influencer products</p>
+            <p class="align">All rights reserved</p>
+            <div class="icons">
+                <div class="icon">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>

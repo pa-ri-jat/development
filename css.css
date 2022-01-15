@@ -1,0 +1,148 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start{
+    font-size: 30px;
+    line-height: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+h1{
+    font-weight: bolder ;
+    font-size: 45px;
+    line-height: 20px;
+    margin-left: 1%;
+    
+}
+h4{
+    font-size: larger;
+    font-weight: bolder;
+}
+.merge{
+    width:40%;
+    text-align: justify;
+    padding-left: 10%;
+}
+
+.merge img{
+    width: 440px;
+    width: 440px;
+    background-image: url(images/Circle\ design.svg);
+}
+
+.padding-bottom{
+    font-size: larger;
+    font-weight: bolder
+    padding-bottom: 3%;
+    padding-right: 15%;
+    margin-right: 4%;
+    text-align: justify;
+}
+.padding-left{
+    padding-left:5%;
+}
+/* link  */
+.link-button{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(blue,indigo);
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom:5%  
+}
+/* logos */
+section{
+    margin-top: 10%;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border: 2px solid linear-gradient(silver,white);
+}
+#no-bg{
+    background-image: none;
+    color: linear-gradient(blue,indigo);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    text-align:start;
+}
+.flexible-container{
+    margin-top: 10%;
+    display:flex;
+}
+/* collection style  */
+.container{
+
+    width: 1000px;
+    padding: 30px;
+    margin-top: 5px; 
+    border-radius: 5px;  
+}
+
+.section-title{
+    color: linear-gradient(grey,black);
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.collection{
+    box-shadow:10px 10px 10px grey;
+    padding-left: 5px;
+}
+ .collection-banner img{
+    width: 300px;
+    height: 256px;
+
+}
+.collection-info{
+    display: flex;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.unfilled{
+    color:#AEAEAE;
+}
+/* last item style  */
+#color{
+    color:darkslateblue;
+    font-weight: bolder ;
+    font-size: 45px;
+    line-height: 20px;
+}
+/* footer style  */
+footer{
+    margin-top: 5%;
+    width:100%;
+    background-color:darkslategrey;
+    padding:5px;
+}
+.align{
+    color:white;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 675px;
+}
+.icon{
+    font-size:30px;
+    color: white;
+    justify-content: space-between;
+}
